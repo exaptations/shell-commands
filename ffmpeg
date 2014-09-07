@@ -1,11 +1,17 @@
 Ffmpeg Commands
 
+```
 ffmpeg -i "input.mkv" -f avi -c:v mpeg4 -b:v 2000k -c:a libmp3lame -b:a 320k "output.avi"
+```
 
+```
 ffmpeg -f concat -i file_list.txt -c copy output.ext
+```
 
 e.g. file_list.txt 
 
+```
 # this is a comment
 file '/path/to/file1'
 file '/path/to/file2'
+```
