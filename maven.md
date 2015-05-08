@@ -14,3 +14,8 @@ Dependency as graphml
 ```
 mvn dependency:tree -Doutput=/path/to/file.graphml -DoutputType=graphml
 ```
+
+Proxy Tunnel
+```
+mvn compile -DsocksProxyHost=127.0.0.1 -DsocksProxyPort=9090
+```
